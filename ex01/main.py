@@ -8,7 +8,7 @@ def index():
 
 @app.route('/button-clicked', methods=['POST'])
 def button_clicked():
-    print("oi chef")
+    print("its works")
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
